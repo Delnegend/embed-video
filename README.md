@@ -1,16 +1,8 @@
 # embed-video
 
-## Usage
-
-Paste the following into Notion:
-```
-https://embed-video.delnegend.com/?url=<url>
-```
-or for YouTube videos:
-```
-https://embed-video.delnegend.com/?yt=<videoId>
-```
-or for Vimeo videos:
-```
-https://embed-video.delnegend.com/?vimeo=<videoId>
-```
+Usage
+- Direct video links: `https://embed-video.delnegend.com/?url=<url>`
+- YouTube: `...?yt=<videoId>`
+- Vimeo: `...?vm=<videoId>`
+- Direct audio link: `...?audio=<url>`
+- Base64 encoded video (when there are params in the direct links): `...?b64=<base64>`
